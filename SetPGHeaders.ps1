@@ -9,6 +9,7 @@ Sets IIS Security headers and TLS. Also, takes basic backups before applying the
 Review the code and update sections according to your environment.
 .LINK
 https://github.com/AhsenBaig/IIS-security-ssl-headers
+
 #>
 
 $preHeaders = 'preHeaders_'
