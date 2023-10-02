@@ -84,7 +84,7 @@ function CreateHeader {
 # Add the new header
 # NOTES: 
 # Change to your domain: https://<yourdomain>
-# Uses ';--have i been pwned? api integration.
+
 $headerName = "Content-Security-Policy"               
 $HeaderValue = "default-src 'none'; font-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com; connect-src 'self' https://api.pwnedpasswords.com; img-src 'self' https://<yourdomain> data:; style-src 'self' 'unsafe-inline'; base-uri 'self'; form-action https: http:"
 CreateHeader -headerName ${headerName} -headerValue ${headerValue}
